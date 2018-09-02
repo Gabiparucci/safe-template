@@ -1,0 +1,99 @@
+section.section-footer .footer-contact form button,
+section.contact-message .contact-message-form form button{
+    height: 47px;
+    width: 134px;
+    background: var(--primary);
+    font-weight: bold;
+    color: var(--textLight);
+    border: none;
+}
+
+section.section-footer{
+    display: flex;
+    padding: 0 20%;
+    height: 464px;
+    background: var(--dark2);
+}
+
+section.section-footer .footer-contact{
+    width: 364px;
+    background: var(--dark);
+}
+
+section.section-footer .section-footer-menu{
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+section.section-footer .divisor,
+section.section-about-us .about-us span,
+section.contact-message .contact-message-form span{
+    width: 54px;
+    height: 5px;
+    background: var(--primary);
+    margin-bottom: 14px;
+    z-index: 2;
+}
+
+section.section-footer .section-footer-menu p{
+    margin: 34px 0px;
+    color: var(--neutral);
+}
+
+section.section-footer .section-footer-menu .address{
+    width: 324px;
+} 
+
+section.section-footer .section-footer-menu .menu{
+    display: flex;
+    flex-direction: column;
+    width: 190px;
+}
+
+section.section-footer .section-footer-menu .menu label, 
+section.section-footer .footer-contact form label,
+section.contact-message .contact-message-form label{
+    margin-bottom: 40px; 
+    color: var(--textLight);
+    font-size: 24px;
+    font-weight: bold;
+}
+
+section.section-footer .section-footer-menu .menu ul li{
+    margin-bottom: 40px; 
+}
+
+section.section-footer .section-footer-menu .menu ul li i{
+    color: var(--primary); 
+}
+
+section.section-footer .section-footer-menu .menu ul li a{
+    text-decoration: none;
+    color: var(--neutral);
+}
+
+section.section-footer .footer-contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section.section-footer .footer-contact form{
+    display: flex;
+    flex-direction: column;
+}
+
+section.section-footer .footer-contact form input{
+    background: #2D2D2D;
+}
+
+footer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 26px 0;
+    background: var(--primary);
+    color: var(--textLight);
+}

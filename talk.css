@@ -1,0 +1,111 @@
+:root{
+    --primary: #ED492E;
+    --dark: #383838;
+    --dark2: #242424;
+    --textLight: #fff;
+    --primaryLight: #FF9381;
+    --neutral: #888888;
+    --neutral2: #ccc;
+}
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    background: url(img/contact-banner.jpg);
+}
+
+section.methods .method svg{
+    width: 100px;
+    height: 100px;
+}
+
+section.methods{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 515px;
+    padding: 0 20%;
+}
+
+section.methods .method{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+section.methods .method label{
+    color: var(--dark);
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+section.methods .method p{
+    color: var(--neutral);
+}
+
+
+section.section-footer .footer-contact form input,
+section.contact-message .contact-message-form form input{
+    height: 47px;
+    margin-bottom: 15px;
+    background: var(--dark);
+    border: none;
+    padding: 0 14px;
+    color: var(--textLight);
+}
+
+section.contact-message .contact-message-form form input{
+    width: 260px;
+}
+section.contact-message .contact-message-form form input.message{
+    height: 65px;
+    width: 300px;
+}
+
+section.contact-message{
+    height: 500px;
+    display: flex;
+}
+
+section.contact-message .contact-message-img img,
+section.contact-message .contact-message-img{
+    width: 708px;
+    height: 500px;
+}
+
+section.contact-message .contact-message-form,
+section.contact-message .contact-message-form form{
+    flex: 1;
+    background: var(--dark2);
+    display: flex;
+    justify-content: center;
+    padding-left: 20px;
+    padding-top: 25px; 
+    flex-direction: column;
+}
+
+section.contact-message .contact-message-form p{
+    color: var(--neutral2);
+}
+
+section.social-networks ul{
+    height: 307px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+section.social-networks ul li a{
+    text-decoration: none;
+    color: var(--dark);
+
+}
+
+section.social-networks ul li a i{
+    font-size: 40px;
+}
+

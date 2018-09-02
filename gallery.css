@@ -1,0 +1,24 @@
+:root{
+    --primary: #ED492E;
+    --dark: #383838;
+    --dark2: #242424;
+    --textLight: #fff;
+    --primaryLight: #FF9381;
+    --neutral: #888888;
+    --neutral2: #ccc;
+}
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+header{
+    background: url(img/banner-gallery.jpeg);
+}
+
+section.gallery{
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20%;
+}

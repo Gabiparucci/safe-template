@@ -1,0 +1,249 @@
+:root{
+    --primary: #ED492E;
+    --dark: #383838;
+    --dark2: #242424;
+    --textLight: #fff;
+    --primaryLight: #FF9381;
+    --neutral: #888888;
+}
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background: url('img/banner.jpg');
+    display: flex;
+    flex-direction: column;
+}
+
+header nav{
+    padding: 64px 20%;
+    display: flex;
+}
+
+header nav .nav-logo, header nav .nav-menu{
+     flex: 1;
+}
+
+h1.logo{
+    font-size: 44px;
+    color: var(--textLight);
+}
+
+h1.logo span{
+    color: var(--primary);
+}
+
+header nav .nav-menu ul{
+    display: flex;
+    justify-content: flex-end;
+    height: 100%;
+}
+
+header nav .nav-menu ul li a{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 115px;
+    color: var(--textLight);
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+header nav .nav-menu ul li a:hover{
+    color: var(--primary);
+}
+
+header section{
+    flex: 1;
+    padding: 0 20%;
+    color: var(--textLight);
+    display: flex;
+}
+
+header section .section-title{
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    flex-direction: column;
+}
+
+header section .section-form{
+    display: flex;
+    flex: 1;
+}
+
+header section .section-title h1{
+    font-size:  60px;
+}
+
+header section .section-title h1 span{
+    color: var(--primary);
+}
+
+header section .section-title p{
+    margin: 18px 0; 
+    line-height: 34px;
+}
+
+header section .section-title button{
+    width: 180px;
+    height: 60px;
+    background: var(--primary);
+    color: var(--textLight);
+    border: none;
+    font-weight: bold;
+}
+
+header section .section-form {
+   display: flex;
+   align-items: center;
+   justify-content: flex-end;
+}
+
+header section .section-form .form{
+    width: 374px;
+    height: 450px;
+    display: flex;
+    flex-direction: column; 
+}
+
+header section .section-form .form .form-header{
+    height: 124px;
+    display: flex;
+    position: relative;
+}
+
+header section .section-form .form .form-header .form-header-content{
+    background: var(--primary);
+    z-index: 1;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+header section .section-form .form .form-header .form-header-content p{
+    margin-left: 24px;
+    font-weight: bold; 
+    font-size: 20px;
+}
+
+header section .section-form .form .form-header .form-header-content svg{
+    width: 44px;
+    fill: var(--textLight);
+}
+
+header section .section-form .form .form-header::before{
+    content: '';
+    position: absolute;
+    bottom: -6px;
+    left: -9px;
+    width: 0;
+    height: 0;
+    border-left: 17px solid transparent;
+    border-right: 17px solid transparent;
+    border-top: 17px solid var(--primaryLight);
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+header section .section-form .form .form-header::after{
+    content: '';
+    position: absolute;
+    bottom: -6px;
+    right: -9px;
+    width: 0;
+    height: 0;
+    border-left: 17px solid transparent;
+    border-right: 17px solid transparent;
+    border-top: 17px solid var(--primaryLight);
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+
+header section .section-form .form .form-body form{
+    background: var(--textLight);
+    flex: 1;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 44px;
+}
+
+header section .section-form .form .form-body{
+    flex: 1;
+    display: flex;
+    padding: 0 16px;
+}
+
+header section .section-form .form .form-body form input,
+section.section-footer .footer-contact form input{
+    height: 47px;
+    margin-bottom: 15px;
+    background: var(--dark);
+    border: none;
+    padding: 0 14px;
+    color: var(--textLight);
+}
+
+header section .section-form .form .form-body form button,
+section.section-footer .footer-contact form button{
+    height: 47px;
+    width: 134px;
+    background: var(--primary);
+    font-weight: bold;
+    color: var(--textLight);
+    border: none;
+}
+
+section.topics{
+    height: 412px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.topics .topic{
+    display: flex;
+    height: 112px;
+    width: 370px;
+    margin-left: 15px;
+}
+
+section.topics .topic .topic-icon{
+    width: 74px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid var(--primary);
+}
+
+section.topics .topic .topic-content{
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    flex-direction: column;
+    padding-left: 20px; 
+}
+
+section.topics .topic .topic-content label{
+    font-size: 20px;
+    color: var(--dark2);
+}
+
+section.topics .topic .topic-content p{
+    font-size: 15px;
+    color: var(--neutral);
+    line-height: 25px;
+}
+
+section.topics .topic .topic-icon svg{
+    width: 34px;
+}

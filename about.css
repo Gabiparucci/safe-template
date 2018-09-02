@@ -1,0 +1,116 @@
+:root{
+    --primary: #ED492E;
+    --dark: #383838;
+    --dark2: #242424;
+    --textLight: #fff;
+    --primaryLight: #FF9381;
+    --neutral: #888888;
+    --neutral2: #ccc;
+}
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    background: url('img/about-us.jpg');
+}
+
+.section-about-us{
+    height: 400px;
+    display: flex;
+    padding: 0 20%;
+}
+
+.section-about-us .image-about{
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-about-us .about-us{
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    flex-direction: column;
+}
+
+.section-about-us .about-us p{
+    line-height: 25px;
+    color: var(--neutral);
+}
+
+.section-about-us .image-about svg{
+    width: 200px;
+    height: 200px;
+}
+
+section.section-footer .footer-contact form input{
+    height: 47px;
+    margin-bottom: 15px;
+    background: var(--dark);
+    border: none;
+    padding: 0 14px;
+    color: var(--textLight);
+}
+
+section.section-footer .footer-contact form button{
+    height: 47px;
+    width: 134px;
+    background: var(--primary);
+    font-weight: bold;
+    color: var(--textLight);
+    border: none;
+}
+
+section.services{
+    height: 412px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+section.services .service{
+    display: flex;
+    height: 303px;
+    width: 425px;
+    margin-left: 15px;
+    border: 1px solid var(--dark2);
+    flex-direction: column;
+}
+
+section.services .service:hover{
+    background: var(--neutral2);  
+}
+
+section.services .service .service-icon{
+    height: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.services .service .service-content{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 20px; 
+}
+
+section.services .service .service-content label{
+    font-size: 20px;
+    color: var(--dark2);
+}
+
+section.services .service .service-content p{
+    font-size: 15px;
+    color: var(--neutral);
+    line-height: 25px;
+}
+
+section.services .service .service-icon svg{
+    width: 34px;
+}

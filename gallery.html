@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="gallery.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="craftyslide.css" />
+    <title>Pachi Seguros</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="nav-logo">
+                <h1 class="logo">
+                    <span>P</span>achi</h1>
+            </div>
+            <div class="nav-menu">
+                <ul>
+                    <li class="active">
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="about.html">Sobre</a>
+                    </li>
+                    <li>
+                        <a href="gallery.html">Galeria</a>
+                    </li>
+                    <li>
+                        <a href="talk.html">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <section>
+            <div class="section-title">
+                <h1> Galeria
+                </h1>
+            </div>
+        </section>
+    </header>
+
+    <section class="gallery">
+        <div id="slideshow">
+            <ul>
+                <li>
+                    <img src="img/gallery/1.png" title="Lorem ipsum dolor sit amet" />
+                </li>
+
+                <li>
+                    <img src="img/gallery/2.jpeg" title="Lorem ipsum dolor sit amet" />
+                </li>
+
+                <li>
+                    <img src="img/gallery/3.jpg" title="Lorem ipsum gallerydolor sit amet" />
+                </li>
+                <li>
+                    <img src="img/gallery/4.jpeg" title="Lorem ipsum gallerydolor sit amet" />
+                </li>
+                <li>
+                    <img src="img/gallery/5.jpg" title="Lorem ipsum gallerydolor sit amet" />
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="section-footer">
+        <div class="section-footer-menu">
+            <div class="address">
+                <h1 class="logo">
+                    <span>P</span>achi</h1>
+                <p>301 The Greenhouse, Custard
+                    <br> Factory, London, E28DY.</p>
+                <p>Email: security@pachi.com</p>
+                <p>Phone: +44 (0) 123 456 7890</p>
+            </div>
+            <div class="menu">
+                <span class="divisor"></span>
+                <label>Menu</label>
+                <ul>
+                    <li>
+                        <i class="fas fa-angle-right"></i>
+                        <a href="talk.html">Fale conosco</a>
+                    </li>
+                    <li>
+                        <i class="fas fa-angle-right"></i>
+                        <a href="about.html">Sobre nós</a>
+                    </li>
+                    <li>
+                        <i class="fas fa-angle-right"></i>
+                        <a href="gallery.html">Galeria</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-contact">
+            <form action="#">
+                <span class="divisor"></span>
+                <label>Fale conosco</label>
+                <input id="name-footer" placeholder="Nome" type="text">
+                <input id="phone-footer" placeholder="Número" type="tel">
+                <button onclick="enviarFooter()" type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        © Copyrights 2018. Gabi Pachi All Rights Reserved
+    </footer>
+    <script src="http://code.jquery.com/jquery-1.6.3.min.js"></script>
+    <script src="js/craftyslide.js"></script>
+    <script type="text/javascript" src="js/footer-form.js"></script>
+    <script>
+        $("#slideshow").craftyslide({});
+    </script>
+</body>
+
+</html>
